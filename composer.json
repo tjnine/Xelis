@@ -1,0 +1,19 @@
+
+    "require": {
+        "silex/silex": "~2.0",
+        "doctrine/dbal": "~2.5.2",
+        "symfony/validator": "~2.8",
+        "symfony/form": "~2.8",
+        "symfony/config": "~2.8",
+        "symfony/twig-bridge"   : "~2.8",
+        "symfony/yaml"          : "~2.8",
+        "symfony/security"      : "~2.8",
+        "twig/twig"             : "~1.23"
+    },
+    "require-dev": {
+    	"symfony/var-dumper": "dev-master"
+    },
+    "psr-4": {
+    	"Silo\\": "src/App"
+    }
+}
